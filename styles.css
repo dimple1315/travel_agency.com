@@ -1,0 +1,119 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    color: #000000;
+    font-weight: bolder;
+    max-width: 600px;
+    height: 700px;
+    margin: 50px auto;
+    background-color: #4b4848;
+    background-color: rgba(255,255,255,0.13);
+    transform: translate();
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+    text-align: center;
+    color: #000000;
+}
+.transport {
+    color: #000000;
+    font-weight: bolder;
+    max-width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    background-color: #4b4848;
+    background-color: rgba(255,255,255,0.13);
+    transform: translate();
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.transport h1 {
+    text-align: center;
+    color: #000000;
+}
+.Location {
+    color: #000000;
+    font-weight: bolder;
+    max-width: 600px;
+    height: 500px;
+    margin: 50px  0; 
+    background-color: #4b4848;
+    background-color: rgba(255,255,255,0.13);
+    transform: translate(55%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Location h1 {
+    text-align: center;
+    color: #000000;
+}
+.Employee {
+    color: #000000;
+    font-weight: bolder;
+    max-width: 600px;
+    height: 500px;
+    margin: 50px  0; 
+    background-color: #4b4848;
+    background-color: rgba(255,255,255,0.13);
+    transform: translate(55%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Employee h1 {
+    text-align: center;
+    color: #000000;
+}
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3f413e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+button:hover {
+    /* background-color: #f4f7f89a; */
+    box-shadow: 3px 3px #0000006c;
+}
+
+#Transport_ID, #TNo_of_vehicles, #Employee_ID, #Location_ID, #Schedule_ID, #SDate, #source_Time, #destination_Time, #Admin_ID, #SLoc_ID, #ELoc_ID, #vehicle_ID{
+    width: 100%;
+    margin-right: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

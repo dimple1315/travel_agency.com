@@ -1,0 +1,71 @@
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.tb{
+    border-style: solid;
+    text-align: center;
+    padding: 10px;
+}
+body {
+    margin-left: 250px;
+    font-family: Arial, sans-serif; /* Set the font family for the entire page */
+    background-color: #f0f0f0;
+}
+
+.addUser {
+    justify-content: center;
+    margin-left: 100px;
+    margin: 20px auto; /* Center the content horizontally */
+    max-width: 1000px; /* Set maximum width for the content */
+    padding: 20px; /* Add padding around the content */
+    background-color: white; /* Set background color for the content */
+    border-radius: 10px; /* Add border radius to create rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Add box shadow for a subtle effect */
+}
+
+.tb {
+    width: 100%; /* Set table width to fill its container */
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tb th, .tb td {
+    padding: 10px; /* Add padding to table cells */
+    border: 1px solid #5f5b5b; /* Add border to table cells */
+}
+
+.tb th {
+    background-color: #f2f2f2; /* Set background color for table header */
+}
+
+.tb tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+.tb tr:hover {
+    background-color: #e5e5e5; /* Background color on hover */
+}
+
+.lap {
+    border-color: black;
+    background-color: #959899; 
+    border-radius: 5px;
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor on hover */
+}
+.add{
+    margin-top: 50px;
+}
+
+.lap a {
+    color: white; /* Anchor text color inside button */
+    text-decoration: none; /* Remove underline from anchor */
+}
+
+.lap:hover {
+    color: #626263; /* Button background color on hover */
+}
